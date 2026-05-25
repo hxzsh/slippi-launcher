@@ -1,0 +1,15 @@
+export const ChatSettingsMessages = {
+  save: () => "Speichern",
+  discardChanges: () => "Änderungen verwerfen",
+  default: () => "Standard",
+  subscribe: () => "Abonnieren",
+  premium: () => "Premium",
+  chatGroup: (direction: string) => `Chat-Gruppe: {0}`,
+  up: () => "Oben",
+  left: () => "Links",
+  right: () => "Rechts",
+  down: () => "Unten",
+  chatMessages: () => "Chat-Nachrichten",
+  chatMessagesDescription: () => "Chat-Nachrichten, die in Netplay verwendet werden",
+  pleaseLoginToUseFeature: () => "Bitte logge dich ein, um diese Funktion zu nutzen.",
+};
